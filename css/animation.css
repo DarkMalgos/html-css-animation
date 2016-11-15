@@ -10,6 +10,12 @@ html {
 
 header {
     width: 100%;
+    height: 450px;
+    
+}
+
+header #fight-back {
+    width: 100%;
     height: 270px;
     background: url("../images/fond/fond1.png") no-repeat;
     background-size: 100% 100%;
