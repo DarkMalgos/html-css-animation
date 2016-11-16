@@ -1,10 +1,11 @@
 function show_fight_menu(){
-    var fi = document.getElementById("fight-instruction");
-    fi.style.backgroundImage = "url ('../images/fight/fight1.png')";
+    var fi = document.getElementById("fight-option");
+    fi.style.position = "absolute"
+    fi.style.background = "url('images/fight/fight1.png')";
+    fi.style.width = "100%";
+    fi.style.height = "180px";
     fi.style.backgroundSize = "100% 100%";
-    fi.style.top = "0";
-    fi.style.left = "0";
-    fi.style.zIndex = "40";
+     fi.style.zIndex = "40";
 }
 
 var f = document.getElementById("fight");
