@@ -63,8 +63,8 @@
 
 #red {
     position: absolute;
-    width: 350px;
-    height: 350px;
+    width: 40vh;
+    height: 40vh;
     right: 100%;
     background: url("../images/trainer/red1.png") no-repeat;
     background-size: 100% 100%;
@@ -114,8 +114,8 @@
 
 #green {
     position: absolute;
-    width: 253px;
-    height: 350px;
+    width: 15%;
+    height: 40vh;
     left: 100%;
     background: url("../images/trainer/green1.png") no-repeat;
     background-size: 100% 100%;
@@ -160,8 +160,8 @@
 
 #dracaufeu {
     position: absolute;
-    width: 406px;
-    height: 350px;
+    width: 25%;
+    height: 40vh;
     right: 60%;
     bottom: -4%;
     background: url("../images/pokemon/dracaufeu.png") no-repeat;
@@ -178,6 +178,8 @@
     bottom: 0;
     background: url("../images/pokemon/hp-dracaufeu.png") no-repeat;
     background-size: 100% 100%;
+    -webkit-animation:
+        arcanin-go 2s linear 1;
 }
 
 @-webkit-keyframes dracaufeu-go {
@@ -217,8 +219,8 @@
 
 #arcanin {
     position: absolute;
-    width: 338px;
-    height: 350px;
+    width: 20%;
+    height: 40vh;
     left: 65%;
     top: 7%;
     background: url("../images/pokemon/arcanin.png") no-repeat;
@@ -264,7 +266,7 @@
 
 #hp-arcanin {
     position: absolute;
-    width: 522px;
+    width: 30%;
     height: 20vh;
     left: 15%;
     top: 2.5%;
@@ -489,3 +491,83 @@
         z-index: 10;
     }
 }
+
+/* fight move */
+
+#fight-option {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    background: url('../images/fight/fight1.png') no-repeat;
+    background-size: 100% 100%;
+    z-index: 40;
+}
+
+/* bag menu */
+
+#bag_menu {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background: url('../images/bag/items-section.png');
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#cancel-bag {
+    display: none;
+    width: 113px;
+    height: 30px;
+    position: absolute;
+    background: url('../images/bag/cancel.png');
+    background-size: 100% 100%;
+    left: 40%;
+    top: 8%;
+}
+
+#cancel-bag:hover {
+    display: none;
+    width: 147px;
+    height: 42px;
+    position: absolute;
+    background: url('../images/bag/cancel-hover.png');
+    background-size: 100% 100%;
+    left: 38%;
+    top: 8%;
+}
+
+/* team menu */
+
+#team {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background: url('../images/team/background-team.png');
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#cancel-team {
+    display: none;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    background: url('../images/team/cancel.png');
+    background-size: 100% 100%;
+    left: 76.75%;
+    top: 83.75%;
+}
+
+#cancel-team:hover {
+    display: none;
+    width: 305px;
+    height: 90px;
+    position: absolute;
+    background: url('../images/team/cancel-hover.png');
+    background-size: 100% 100%;
+    left: 76.75%;
+    top: 82.5%;
+}
+
+/* run */

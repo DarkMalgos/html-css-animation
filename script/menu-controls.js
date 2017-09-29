@@ -26,6 +26,13 @@ function show_team(){
 var t = document.getElementById("pokemon");
 t.addEventListener('click', show_team);
 
+function run_restart() {
+    location.reload();
+}
+
+var t = document.getElementById("run");
+t.addEventListener('click', run_restart);
+
 function cancel_bag(){
     var bm = document.getElementById("bag_menu");
     bm.style.display = "none";
